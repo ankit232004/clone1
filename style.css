@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins";
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(home_netf.png);
+  height: 80vh;
+  background-position: center center;
+  background-size: max(1700px, 100vw);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.main .box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0.66;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  border-bottom: 5px solid rgba(82, 80, 80, 0.712);
+}
+nav {
+  /*position: sticky;
+  top:0;
+  z-index: 20;*/
+  max-width: 75vw;
+  margin: auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  color: red;
+  width: 145px;
+  position: relative;
+  z-index: 20;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.text {
+  font-family: "poppins";
+  height: 87%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  z-index: 10;
+  gap: 20px;
+  padding: 0px 23px;
+}
+.text > :first-child {
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+.text > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.text > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+/*.line {
+  height: 5px;
+  background-color: rgb(78, 78, 78);
+}*/
+.btn {
+  padding: 6px 19px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 0px;
+  background-color: rgba(23, 23, 23, 0.8);
+  border: 1px solid gray;
+  color: white;
+  cursor: pointer;
+}
+.red {
+  background-color: red;
+  color: white;
+}
+.st {
+  background-color: red;
+  color: white;
+  padding: 9.5px 27px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.main input {
+  border: 1px solid gray;
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.8);
+}
+.sc_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.si_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.first {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 70vw;
+  color: white;
+  gap: 130px;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  height: 45vh;
+  top: 5px;
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+.secimg video {
+  height: 30vh;
+  position: absolute;
+  top: 52px;
+  width: 30vw;
+  right: 0;
+}
+.letter {
+  display: flex;
+
+  justify-content: start;
+  flex-direction: column;
+}
+.eyt {
+  font-size: 50px;
+  font-weight: bold;
+}
+.parara {
+  font-size: 20px;
+}
+.bbb {
+  height: 65vh;
+  border-bottom: 7px solid rgba(82, 80, 80, 0.288);
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thir_vid {
+  position: relative;
+}
+.thir_vid img {
+  height: 45vh;
+  top: 5px;
+  width: 35vw;
+  position: relative;
+  z-index: 10;
+}
+.thir_vid video {
+  height: 27vh;
+  position: absolute;
+  top: 20px;
+  width: 33vw;
+  right: 16px;
+}
+.faq {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /*border-bottom: 7px solid rgba(82, 80, 80, 0.288);*/
+}
+.faq h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 48px;
+}
+.faqbox {
+  display: flex;
+  background-color: #2d2d2d;
+  padding: 22px;
+  width: 75vw;
+  justify-content: space-between;
+  margin: auto;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  font-size: 25px;
+}
+.faqbox:hover {
+  background-color: rgb(100, 100, 100);
+}
+.allfaqbox {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.ttwwoo input {
+  border: 1px solid gray;
+  color: rgb(255, 255, 255);
+  padding: 8px 30px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.8);
+}
+.ttwwoo {
+  display: flex;
+  flex-direction: column;
+}
+.ttwwoo h2 {
+  width: 55vw;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 18px;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.cp {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+}
+.cp h2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(90, 85, 85);
+}
